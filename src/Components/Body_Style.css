@@ -1,0 +1,84 @@
+body {
+    background-image: linear-gradient(to bottom right, rgb(226, 182, 182), rgb(227, 227, 169));
+    background-attachment: fixed;   
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.form {
+    position: absolute;
+    top: 150px;
+    left: 35%;
+}
+
+.label {
+    position: absolute;
+    left: 0px;
+    font-size: 30px;
+}
+
+.formInput {
+    position: absolute;
+    left: 170px;
+    height: 30px;
+    width: 240px;
+    border-radius: 20px;
+}
+
+.empDetails{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    position: absolute;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    left: 10%;
+    right: 10%;
+    top: 200px;
+}
+
+.button{
+    position: absolute;
+    border-radius: 20px;
+    top: 200px;
+    left: 150px;
+    height: 40px;
+    width: 140px;
+    font-size: 20px;
+}
+
+.finalData{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-left: 10px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    background-color: rgba(227, 245, 232, 0.97);
+    align-content: center;
+    width: 575px;
+}
+
+.backButton{
+    border-radius: 20px;
+    top: 200px;
+    left: 150px;
+    height: 40px;
+    width: 140px;
+    font-size: 20px;
+
+}
+
+.backButton:hover {
+    background-color: rgb(186, 190, 236);
+}
+
+.button:hover {
+    background-color: rgb(186, 190, 236);
+}
